@@ -1,0 +1,24 @@
+{
+  "brief": "黒髪ショートカットで、運動神経が良さそうな、紺色のセーラー服を着た女子高生を作って。スニーカーは白と赤。パルクールアクションゲームの主人公に使う",
+  "name": "parkour-sailor",
+  "base": "female",
+  "gender": "female",
+  "style": "anime",
+  "hair": {"style": "short", "preset": 21, "color": "#202020"},
+  "outfit": {
+    "type": "sailor_uniform",
+    "primary_color": "#202B50",
+    "full_set": 52,
+    "items": [
+      {"category": "靴", "preset": 56},
+      {"category": "トップス", "color": "#202B50", "sections": [0]}
+    ]
+  },
+  "shoes": {"type": "sneakers", "colors": ["white", "red"], "note": "靴 preset 56 is already white/red; no recolour needed"},
+  "body": {"脚の長さ": 0.3, "頭の大きさ": -0.1},
+  "character": {"impression": "athletic", "role": "parkour_game_protagonist"},
+  "export": {"avatar_name": "パルクール少女", "author": "vroid-harness", "version": "1.0", "format": "1.0"},
+  "unsupported": [
+    "Winter sailor top with white collar lines: the top has one material, so a navy シェーダーカラー multiplies the whole texture (collar lines become navy). Exact lines need texture painting."
+  ]
+}
